@@ -13,4 +13,6 @@ Mengirim bungkusan hasil commit ke repo=
 >git push -u origin master
 
 Jika setelah push pertama selesai , dan anda menambahkan atau meng edit file di directori git 
-maka ketika anda melakukan git status, akan muncul kembali file baru hasil modified atau file baru yg siap di add dan di push ke repo online
+maka ketika anda melakukan git status, akan muncul kembali file baru hasil modified atau file baru yg siap di add dan di push ke repo online.
+
+JIka anda melakukan push ke branch salah satu, maka branch yg lain tidak akan ikut terupdate.
