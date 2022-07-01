@@ -5,8 +5,12 @@ Memasukan file ke wadah, bisa satu persatu atau langsung semua=
 Membungkus file file yg telah di add=
 >git commit -m "first commit"
 JIka ingin pindah branch atau sama dengan pindah folder ygada di dalam init.(branch itu seperti folder yg ada di init)=
+jika ingin pindah branch atau buat branch baru=
 >git branch -M main
 Membuat koneksi ke repositori=
 >git remote add origin <url_repo>
 Mengirim bungkusan hasil commit ke repo=
 >git push -u origin master
+
+Jika setelah push pertama selesai , dan anda menambahkan atau meng edit file di directori git 
+maka ketika anda melakukan git status, akan muncul kembali file baru hasil modified atau file baru yg siap di add dan di push ke repo online
