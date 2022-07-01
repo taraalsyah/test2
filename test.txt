@@ -1,0 +1,12 @@
+Inisialisasi/membuat wadah=
+>git init 
+Memasukan file ke wadah, bisa satu persatu atau langsung semua=
+>git add test.txt or git add . > cara kedua ini biar ambil semua file di folder
+Membungkus file file yg telah di add=
+>git commit -m "first commit"
+JIka ingin pindah branch atau sama dengan pindah folder ygada di dalam init.(branch itu seperti folder yg ada di init)=
+>git branch -M main
+Membuat koneksi ke repositori=
+>git remote add origin <url_repo>
+Mengirim bungkusan hasil commit ke repo=
+>git push -u origin master
